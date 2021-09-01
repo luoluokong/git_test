@@ -1,7 +1,7 @@
 #include <stdio.h>
-#define CHAR "Hello World!"
 
 int main(void){
-	printf("%s",CHAR);
+	const char msg[20]={"Hello, World!"};
+	printf("%s",msg);
 	return 0;
 	}
